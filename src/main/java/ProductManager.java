@@ -36,7 +36,7 @@ public class ProductManager {
     public String[] findLast() {
 
         int sumFilms;
-        if (films.length != limit) {
+        if (films.length < limit) {
             sumFilms = films.length;
         } else {
             sumFilms = limit;
