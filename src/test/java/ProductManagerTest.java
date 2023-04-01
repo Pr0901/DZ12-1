@@ -22,7 +22,6 @@ public class ProductManagerTest {
         Assertions.assertArrayEquals(expected, actual);
     }
 
-
     @Test
     public void findAllLimit() {
         String film1 = "filmI";
@@ -55,7 +54,6 @@ public class ProductManagerTest {
         Assertions.assertArrayEquals(expected, actual);
     }
 
-
     @Test
     public void findLastLessLimit() {
         String film1 = "filmI";
@@ -72,7 +70,6 @@ public class ProductManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
-
 
     @Test
     public void findLastLimit() {
@@ -104,7 +101,6 @@ public class ProductManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
-
 
 }
 

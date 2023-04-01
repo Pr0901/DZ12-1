@@ -1,6 +1,5 @@
 public class ProductManager {
 
-
     private int limit;
 
     public ProductManager() {
@@ -23,8 +22,6 @@ public class ProductManager {
         }
         tmp[tmp.length - 1] = newFilm;
         films = tmp;
-
-
     }
 
     public String[] findAll() {
