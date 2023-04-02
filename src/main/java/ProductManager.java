@@ -2,16 +2,17 @@ public class ProductManager {
 
     private int limit;
 
+    private String[] films = new String[0];
+
     public ProductManager() {
+
         this.limit = 10;
     }
 
     public ProductManager(int limit) {
+
         this.limit = limit;
     }
-
-
-    private String[] films = new String[0];
 
 
     public void addFilm(String newFilm) {
@@ -39,9 +40,9 @@ public class ProductManager {
             sumFilms = limit;
         }
         String[] tmp = new String[sumFilms];
-        for (int i = 0; i < films.length; i++) {
+        for (int i = 0; i < sumFilms; i++) {
 
-            tmp[i] = films[films.length - 1 - i];
+            tmp[i] = films[sumFilms - 1 - i];
         }
         return tmp;
     }
